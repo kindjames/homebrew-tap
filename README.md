@@ -10,14 +10,4 @@ brew tap kindjames/tap
 
 ## Formulae
 
-| Formula | Description |
-|---|---|
-| `exifimport` | Ingest media from a memory card into an opinionated date-based directory structure |
-
-### exifimport
-
-```sh
-brew install exifimport
-```
-
-See the [exifimport repo](https://github.com/kindjames/exifimport) for full usage documentation.
+None at the moment. [exifimport](https://github.com/kindjames/exifimport) has been rewritten in Rust; its formula will return once release automation builds prebuilt binaries. Until then, install it from source with `cargo install --git https://github.com/kindjames/exifimport`.
